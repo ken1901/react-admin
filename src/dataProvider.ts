@@ -13,3 +13,6 @@ export const dataProvider = new Proxy(baseDataProvider, {
             )
         ),
 });
+
+// import { strapiRestProvider } from "ra-strapi-v4-rest";
+// export const dataProvider = strapiRestProvider(process.env.REACT_APP_API_URL);
